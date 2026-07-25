@@ -1,0 +1,171 @@
+# ==========================================
+# FRONTEND (React / Vite)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/.output/
+frontend/.cache/
+frontend/.turbo/
+frontend/coverage/
+frontend/test-results/
+
+# Keep lock files (recommended)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==========================================
+# BACKEND (Python)
+# ==========================================
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ipynb_checkpoints/
+backend/.ruff_cache/
+backend/.venv/
+backend/venv/
+
+# Python cache
+*.py[cod]
+*$py.class
+
+# Build files
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ==========================================
+# ENVIRONMENT & SECRETS
+# ==========================================
+# Root environment files
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+
+# Frontend environment files
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend environment files
+backend/.env
+backend/.env.*
+backend/.env.local
+backend/.env.*.local
+!backend/.env.example
+
+# ==========================================
+# AI MODELS & CHECKPOINTS
+# ==========================================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.h5
+*.keras
+*.safetensors
+
+backend/models/
+backend/checkpoints/
+backend/best_small_model/
+
+# ==========================================
+# VECTOR DATABASE / RAG
+# ==========================================
+backend/vectorstore/
+*.faiss
+*.index
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# DATASETS
+# ==========================================
+backend/data/
+data/
+datasets/
+
+# Uncomment if your datasets are large
+# *.csv
+# *.json
+# *.jsonl
+# *.zip
+# *.tar
+# *.gz
+
+# ==========================================
+# LOGS
+# ==========================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================================
+# TEST / COVERAGE
+# ==========================================
+.coverage
+coverage/
+htmlcov/
+backend/coverage/
+backend/test-results/
+
+# ==========================================
+# EDITORS / OS
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.njsproj
+*.sln
+*.swp
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+*.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# IDE
+# ==========================================
+.vscode/
+.idea/
+*.iml
+
+# ==========================================
+# OS FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# TEMP FILES
+# ==========================================
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+.cache/
+
+# ==========================================
+# JUPYTER
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# PYTHON VERSION
+# ==========================================
+.python-version

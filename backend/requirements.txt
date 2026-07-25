@@ -1,0 +1,24 @@
+langchain
+langchain-classic
+langchain-huggingface
+langchain_community
+langchain-text-splitters
+PyPDF2
+faiss-cpu
+sentence-transformers>=3.0
+streamlit
+langchain-groq
+groq
+pyttsx3
+SpeechRecognition
+pyaudio
+# API server (for frontend)
+fastapi
+uvicorn[standard]
+python-dotenv
+Pillow
+# Auth & MongoDB
+motor
+pymongo
+python-jose[cryptography]
+bcrypt>=4.0,<5
